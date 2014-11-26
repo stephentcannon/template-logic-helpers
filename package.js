@@ -7,7 +7,10 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.0');
-  api.addFiles('steeve:template-logic-helpers.js');
+  api.use([
+    'templating',
+    ], 'client');
+  api.addFiles('steeve:template-logic-helpers.js', 'client');
 });
 
 
