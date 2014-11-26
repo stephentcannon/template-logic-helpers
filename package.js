@@ -2,7 +2,7 @@ Package.describe({
   name: 'steeve:template-logic-helpers',
   summary: 'a package of template logic helpers',
   version: '0.0.1',
-  git: ' /* Fill me in! */ '
+  git: 'https://github.com/stephentcannon/template-logic-helpers.git'
 });
 
 Package.onUse(function(api) {
