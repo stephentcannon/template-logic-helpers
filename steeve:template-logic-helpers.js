@@ -46,4 +46,10 @@ if (Meteor.isClient) {
       return false;
     }
   });
+  
+  Template.registerHelper('got_id', function(){
+    if(this._id){
+      return true;
+    }
+  });
 }
