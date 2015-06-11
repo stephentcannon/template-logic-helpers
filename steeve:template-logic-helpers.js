@@ -52,4 +52,10 @@ if (Meteor.isClient) {
       return true;
     }
   });
+
+  Template.registerHelper('contains', function(list, val){
+    if(list && val){
+      return _.contains(list, val);
+    }
+  });
 }

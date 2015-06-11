@@ -17,7 +17,7 @@ ordered-dict@1.0.3
 random@1.0.3
 reactive-var@1.0.5
 spacebars-compiler@1.0.6
-steeve:template-logic-helpers@0.0.1
+steeve:template-logic-helpers@0.0.8
 templating@1.1.1
 tracker@1.0.7
 underscore@1.0.3

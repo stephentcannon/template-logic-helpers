@@ -75,3 +75,12 @@ is X <= Y
  it is not
 {{/if}}
 ````
+
+contains(list, val)
+===================
+underscore contains in a template helper
+{{#if contains "[1, 2, 3]" "3"}}
+ it does
+{{else}}
+ it does not
+{{/if}}
